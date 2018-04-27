@@ -16,3 +16,6 @@ crab-llvm-hash-opt  uses CoDBMs using hashing and join and closure optimisations
 The script ./compile-crab.sh shows the locations where each of these are built 
 
 ./compile-crab.sh -h give basic usage info
+
+
+./bootstrap.sh will install dependencies to compile crab
