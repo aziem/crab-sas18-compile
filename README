@@ -1,0 +1,18 @@
+Modified builds of Crab for SAS 2018 paper
+
+This repo will generate 8 builds of crab-llvm which differ in the version of Apron used:
+
+crab-llvm-apron uses standard Apron with GMP MPQs
+crab-llvm-aplas uses APLAS 2017 CoDBMs with GMP MPQs
+crab-llvm-hash  uses CoDBMs using hashing with GMP MPQs
+crab-llvm-hash-opt  uses CoDBMs using hashing and join and closure optimisations with GMP MPQs
+
+
+crab-llvm-apron uses standard Apron with doubles
+crab-llvm-aplas uses APLAS 2017 CoDBMs with doubles
+crab-llvm-hash  uses CoDBMs using hashing with doubles
+crab-llvm-hash-opt  uses CoDBMs using hashing and join and closure optimisations with doubles
+
+The script ./compile-crab.sh shows the locations where each of these are built 
+
+./compile-crab.sh -h give basic usage info

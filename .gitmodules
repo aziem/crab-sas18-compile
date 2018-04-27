@@ -1,0 +1,6 @@
+[submodule "crab"]
+	path = crab
+	url = https://github.com/aziem/crab.git
+[submodule "crab-llvm"]
+	path = crab-llvm
+	url = https://github.com/aziem/crab-llvm.git
