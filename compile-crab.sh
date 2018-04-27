@@ -1,7 +1,9 @@
 #!/bin/bash
 DOUBLE=false
 
-CRABLLVMLOCATION=$HOME/tools/crab-llvm
+currentdir=`pwd`
+
+CRABLLVMLOCATION=$currentdir/crab-llvm
 
 CRABLLVMINSTALL_LOCATION=$HOME/crab-install
 
